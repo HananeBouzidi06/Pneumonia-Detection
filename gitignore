@@ -1,0 +1,44 @@
+
+# Dataset
+data/
+chest_xray/
+__MACOSX/
+*.zip
+
+# Hugging Face cache
+.cache/
+huggingface_cache/
+
+# Trained models and checkpoints
+models/
+training_backup/
+*.keras
+*.h5
+*.ckpt
+
+# Training outputs
+training_history.json
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
